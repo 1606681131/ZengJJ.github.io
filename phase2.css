@@ -1,0 +1,73 @@
+	/* 当屏幕宽度小于或等于768px时（窄屏） */  
+	@media screen and (max-width: 768px) {  
+        .container {  
+          flex-direction: column; /* 假设使用flex布局，将方向改为列 */  
+        }  
+        /* 其他窄屏样式... */  
+      }  
+        
+      /* 当屏幕宽度大于768px时（宽屏） */  
+      @media screen and (min-width: 769px) {  
+        .container{  
+          flex-direction: row; /* 假设使用flex布局，将方向改为行 */  
+        }  
+      }
+  
+      body{ 
+        min-height: 100vh; /* 使用视口高度的100% */  
+        font-size: 16px; /* 更通用的字体大小 */  
+        line-height: 1.5; /* 行高使文本更易读 */  
+        font-family: Arial, sans-serif; /* 使用无衬线字体，使页面更现代 */  
+        color: #333; /* 深灰色文本，更易于阅读 */  
+        margin: 0; /* 移除默认的页边距 */  
+        padding: 0; /* 移除默认的填充 */  
+        background-color: #f5f5f5; /* 浅灰色背景 */  
+      }
+      header{
+          text-align:center;
+          width: auto;
+          border: 2px solid gray;
+          height: 20%;
+          background-color:black;
+          color: white;
+      }
+      nav { 
+          margin-top:40px;
+          text-align:center;
+          width: auto;
+          border: 2px solid black;
+          height: 50px;
+      }
+      main{
+          flex: 1; /* 占据剩余的空间 */ 
+          width: auto;
+          height:400px;
+          background-repeat:no-repeat ;
+          background-position: center;
+          background: cover;
+      }
+      footer{
+          margin-top:auto;
+          text-align:center;
+          width: auto;
+          border: 2px solid grey;
+          height: 20%;
+          background-color: black;
+          color: white;
+          position: relative; /* 为子元素定位做准备 */  
+      }
+      p#title{
+          font-size: 2.5rem;
+      }
+      button{
+          width: 4.5rem;
+          margin-right: 40px;
+          height: 45px;
+      }
+      p{
+          font-size: 1rem;
+      }
+     .paragraph p {  
+      text-indent: 2em; /* 首行缩进2em */  
+      margin-bottom: 1em; /* 段落间距 */  
+  } 

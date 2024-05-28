@@ -1,0 +1,45 @@
+body {  
+    font-size: 16px; /* 更通用的字体大小 */  
+    line-height: 1.5; /* 行高使文本更易读 */  
+    font-family: Arial, sans-serif; /* 使用无衬线字体，使页面更现代 */  
+    color: #333; /* 深灰色文本，更易于阅读 */  
+    margin: 0; /* 移除默认的页边距 */  
+    padding: 0; /* 移除默认的填充 */  
+    background-color: #f5f5f5; /* 浅灰色背景 */  
+  }  
+    
+  header {  
+    border: none; /* 移除边框，使用其他样式代替 */  
+    background-color: #6f99b5; /* 深蓝色背景 */  
+    color: white; /* 白色文本 */  
+    text-align: center; /* 文本居中 */  
+    padding: 20px; /* 增加内边距 */  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */  
+    position: relative; /* 为子元素定位做准备 */  
+  }  
+    
+  header h1 {  
+    margin: 0; /* 移除标题默认的边距 */  
+  }  
+    
+  main {  
+    border: none; /* 移除边框 */  
+    background-color: white; /* 白色背景 */  
+    padding: 20px; /* 增加内边距 */  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */  
+    margin-top: -2px; /* 移除与header之间的多余间距 */  
+  }  
+    
+  footer {  
+    border: none; /* 移除边框 */  
+    background-color: #2c3e50; /* 深灰色背景 */  
+    color: white; /* 白色文本 */  
+    text-align: center; /* 文本居中 */  
+    padding: 10px; /* 增加内边距 */  
+    position: relative; /* 为子元素定位做准备 */  
+  }  
+    
+  .paragraph p {  
+      text-indent: 2em; /* 首行缩进2em */  
+      margin-bottom: 1em; /* 段落间距 */  
+  } 
