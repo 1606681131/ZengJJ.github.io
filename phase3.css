@@ -1,0 +1,54 @@
+*{
+    margin: 10px;
+    text-align: center;
+  }
+  header{
+    border: 3px solid gray;
+    height: 10%;
+    font-size: 1em;
+  }
+  nav{
+    border: 3px solid gray;
+    height: 10%;
+  }
+  main{
+    border: 3px solid gray;
+    height: 70%;
+    font-size: 0.8em;  
+    position: relative;
+  }
+
+  #box{
+    position: absolute;
+    right: 0;
+    width: 100px;
+  }
+
+  footer{
+    border: 3px solid gray;
+    height:10%;
+    font-size: 0.7em;
+  } 
+  body{
+    position: relative;
+  }
+  #aid{
+    position: absolute;
+    border: 3px solid black;
+    top:0px;
+    left:600px;
+  }
+  #tvface{
+    width: 80%;
+    height: 80%;
+    border:1px solid black;
+    background-color: #cccccc;
+    margin:auto;
+  }
+  button{
+  width:100px;
+  height:50px;
+  }
+  .btn{
+  font-size:20px;
+  }
